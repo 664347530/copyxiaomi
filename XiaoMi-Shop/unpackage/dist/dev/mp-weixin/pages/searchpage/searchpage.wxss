@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.search-box.data-v-633c26e6 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #e5e5e5;
+  background-color: white;
+}
+.search-box .head-title.data-v-633c26e6 {
+  margin-top: 20rpx;
+}
+.search-box .head-title .title-head.data-v-633c26e6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 20rpx;
+}
+.search-box .head-title .title-head .search-title.data-v-633c26e6 {
+  font-weight: 600;
+}
+.search-box .head-title .title-head .icon.data-v-633c26e6 {
+  font-weight: 600;
+  padding-top: 4rpx;
+  font-size: 40rpx;
+}
+.search-box .head-title .search-content.data-v-633c26e6 {
+  background-color: white;
+}
+.search-box .head-title .search-content .search-big.data-v-633c26e6 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.search-box .head-title .search-content .search-big .search-name.data-v-633c26e6 {
+  margin: 10rpx 6rpx;
+  background-color: #d8d8d8;
+  font-weight: 500;
+  padding: 5rpx 15rpx;
+  border-radius: 30rpx;
+}
+.search-box .body-title.data-v-633c26e6 {
+  background-color: white;
+  width: 99%;
+  margin: 10rpx auto;
+  display: flex;
+  flex-direction: column;
+}
+.search-box .body-title image.data-v-633c26e6 {
+  width: 100%;
+  height: 100rpx;
+}
+.search-box .body-title .body-product.data-v-633c26e6 {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.search-box .body-title .body-product .products-img.data-v-633c26e6 {
+  height: 130rpx;
+  width: 340rpx;
+  margin: 6rpx 4rpx;
+  display: flex;
+}
+.search-box .body-title .body-product .products-img .img-box.data-v-633c26e6 {
+  width: 40%;
+  height: 100%;
+}
+.search-box .body-title .body-product .products-img .img-box image.data-v-633c26e6 {
+  width: 100%;
+  height: 100%;
+}
+.search-box .body-title .body-product .products-img .img-name.data-v-633c26e6 {
+  width: 60%;
+  margin: auto 0;
+  font-size: 30rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 600;
+}
+.search-box .body-title .body-product .products-img .img-name .ying.data-v-633c26e6 {
+  border: 2rpx solid orange;
+  width: 24rpx;
+  height: 24rpx;
+  font-size: 20rpx;
+  color: orange;
+  font-weight: 600;
+  text-align: center;
+}
+

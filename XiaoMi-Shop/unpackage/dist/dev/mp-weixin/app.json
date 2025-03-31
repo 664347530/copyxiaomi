@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/shopcart/shopcart",
+    "pages/person/person",
+    "pages/searchpage/searchpage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "backgroundColor": "#f5f5f5",
+    "fontSize": "26rpx",
+    "selectedColor": "#ff5500",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/首页.png",
+        "selectedIconPath": "static/img/首页 (1).png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "iconPath": "static/img/分类.png",
+        "selectedIconPath": "static/img/分类 (1).png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/shopcart/shopcart",
+        "iconPath": "static/img/购物车.png",
+        "selectedIconPath": "static/img/购物车 (1).png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "static/img/3.1我的.png",
+        "selectedIconPath": "static/img/3.1我的 (1).png",
+        "text": "分类"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
